@@ -18,12 +18,14 @@
         <ul class="menu">
           <li><a href="index.php">Home</a></li>
           <li><a href="piadas.php">Piadas</a></li>
+           <li><a href="gifs.php">Gifs</a></li>
+        <li><a href="about.php">Quem Somos</a></li>
           <li><a href="contato.php">Contato</a></li>
         </ul>
         </nav>
         </header>
     <section id="acesso">
-        <form id="facesso">
+        <form id="facesso" action="admin.php">
             <label for="login">Login:</label><br>
             <input type="text" name="login" id="login"><br>
             <label for="senha">Senha:</label><br>

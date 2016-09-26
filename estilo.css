@@ -11,7 +11,22 @@ body {background-color: #D0D0D0;}
 	width: 33%;
 	padding-left: 33%;
 }
-    
+
+.links{
+	list-style: none;
+}
+
+.links li{
+	position: relative;
+	display: inline-block;
+}
+
+.links li img{
+	height: 400px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
 nav{
 	text-align: center;
 	width: 100%;
@@ -40,6 +55,54 @@ nav{
 .menu li a:hover{
 	background: #000;
 	color: #fff;
+}
+
+iframe.normal{
+    margin-left: -100px; /* metade da largura */
+    margin-top: -100px; /* metade da altura */
+    position: absolute;
+    top: 30%;
+    left: 35%;
+  }
+  
+iframe.baixo{
+    margin-left: -100px; /* metade da largura */
+    margin-top: -100px; /* metade da altura */
+    position: absolute;
+    top: 84%;
+    left: 42%;
+  }
+  
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	
+.texto{
+	width: 100%;
+}
+	
+.texto h1{
+	font-size: 250%;
+	text-align: center;
+}
+
+.texto h2{
+	font-size: 200%;
+	text-align: center;
+}
+
+.texto h3{
+	font-size: 200%;
+	text-align: center;
+}
+
+.texto p{
+	width: 80%;
+	padding-left: 10%;
+	text-indent: 50px;
+	text-align: justify;
 }
 
 #acesso{

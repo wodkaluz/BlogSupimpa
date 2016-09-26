@@ -17,12 +17,28 @@
         <nav>
         <ul class="menu">
             <li><a href="index.php">Home</a></li>
-          <li><a href="piadas.php">Piadas</a></li>
+       <li><a href="piadas.php">Piadas</a></li>
            <li><a href="gifs.php">Gifs</a></li>
         <li><a href="about.php">Quem Somos</a></li>
           <li><a href="contato.php">Contato</a></li>
         </ul>
         </nav>
         </header>
+        <H1 style="text-align: center"><a href="adminb.php" >Voltar</a></H1>
+        <?php
+	$operacao = $_POST["operacao"];
+	if (strcmp($operacao, "inclusao") == 0 ) {
+		echo "Postado com sucesso";
+	}
+	
+	if (strcmp($operacao, "exclusao") == 0 ) {
+		echo "Post Excluído";
+	}
+        
+    if (strcmp($operacao, "atualizacao") == 0 ) {
+		echo "Post Atualizado";
+	}
+?>
+        
     </body>
 </html>

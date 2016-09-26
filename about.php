@@ -24,5 +24,9 @@
         </ul>
         </nav>
         </header>
+        <article class="texto">
+        <h1 class="texto">Somos um Blog de Humor!</h1><br>
+            <p>Um blog feito por alunos universitários com o intuito de entreter você! Veja nossos posts e caia na gargalhada! Esqueça o estresse do dia a dia!</p>
+        </article>
     </body>
 </html>

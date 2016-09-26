@@ -24,43 +24,44 @@
         </ul>
         </nav>
         </header>
-        <H1 style="text-align: center"><a href="adminb.php" >PAGINA DE GIFS</a></H1>
-        <h3> Adicionar Post </h3>
-		<form method="POST" action="admin2.php">
+        <H1 style="text-align: center"><a href="admin.php" >PAGINA DE POSTS</a></H1>
+        <H1 style="text-align: center"><a href="adminc.php" >PAGINA DE PIADAS</a></H1>
+        <h3> Adicionar Gif </h3>
+		<form method="POST" action="admin2b.php">
 			<fieldset>
-				<legend>Criar Post</legend>
+				<legend>Postar Gif</legend>
 				<input type="hidden" name="operacao" value="inclusao">
-				<label> Numero do Post <input type="text" name="numero_post" size="5"> </label><br>
-				<label> Titulo do Post <input type="text" name="titulo_post" size="20"> </label>
+				<label> Numero do Gif <input type="text" name="numero_gif" size="5"> </label><br>
+				<label> Titulo do Gif <input type="text" name="titulo_gif" size="20"> </label>
                 <br>
-                <label> Foto do Post <input type="file" name="foto_post" size="20"> </label>
+                <label> Foto do Gif <input type="file" name="foto_gif" size="20"> </label>
                 <br>
-                <label> Descricao do Post <input type="text" name="descricao_post" size="20"> </label>
+                <label> Descricao do Gif <input type="text" name="descricao_gif" size="20"> </label>
                 <input type="submit" value="Inserir" name="Inserir">
 			</fieldset>
 		</form>
         <br>
-		<h3> Excluir Post </h3>
-		<form method="POST" action="admin2.php">
+		<h3> Excluir Gif </h3>
+		<form method="POST" action="admin2b.php">
 			<fieldset>
-				<legend>Excluir Post</legend>
+				<legend>Excluir Gif</legend>
 				<input type="hidden" name="operacao" value="exclusao">
-				<label> Numero do Post <input type="text" name="numero_post" size="5"> </label>
+				<label> Numero do Gif <input type="text" name="numero_gif" size="5"> </label>
 				<input type="submit" value="Excluir" name="Excluir">
 			</fieldset>
 		</form>
         <br>
-        <h3> Atualizar Post </h3>
-		<form method="POST" action="admin2.php">
+        <h3> Atualizar Gif </h3>
+		<form method="POST" action="admin2b.php">
 			<fieldset>
-				<legend>Excluir Post</legend>
+				<legend>Atualizar Gif</legend>
 				<input type="hidden" name="operacao" value="atualizacao">
-				<label> Numero do Post <input type="text" name="numero_post" size="5"> </label><br>
-				<label> Novo Titulo do Post <input type="text" name="novo_titulo_post" size="20"> </label>
+				<label> Numero do Gif <input type="text" name="numero_gif" size="5"> </label><br>
+				<label> Novo Titulo do Gif <input type="text" name="novo_titulo_gif" size="20"> </label>
                 <br>
-                <label> Nova Foto do Post <input type="file" name="nova_foto_post" size="20"> </label>
+                <label> Nova Foto do Gif <input type="file" name="nova_foto_gif" size="20"> </label>
                 <br>
-                <label> Nova Descricao do Post <input type="text" name="nova_descricao_post" size="20"> </label>
+                <label> Nova Descricao do Gif <input type="text" name="nova_descricao_gif" size="20"> </label>
                 <input type="submit" value="Atualizar" name="Atualizar">
 			</fieldset>
 		</form>

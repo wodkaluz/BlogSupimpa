@@ -24,43 +24,46 @@
         </ul>
         </nav>
         </header>
+        <H1 style="text-align: center"><a href="adminb.php" >PAGINA DE POSTS</a></H1>
         <H1 style="text-align: center"><a href="adminb.php" >PAGINA DE GIFS</a></H1>
-        <h3> Adicionar Post </h3>
-		<form method="POST" action="admin2.php">
+        <h3> Adicionar Piada </h3>
+		<form method="POST" action="admin2c.php">
 			<fieldset>
-				<legend>Criar Post</legend>
+				<legend>Postar Piada</legend>
 				<input type="hidden" name="operacao" value="inclusao">
-				<label> Numero do Post <input type="text" name="numero_post" size="5"> </label><br>
-				<label> Titulo do Post <input type="text" name="titulo_post" size="20"> </label>
+				<label> Numero da Piada <input type="text" name="numero_piada" size="5"> </label><br>
+				<label> Titulo da Piada <input type="text" name="titulo_piada" size="20"> </label>
                 <br>
-                <label> Foto do Post <input type="file" name="foto_post" size="20"> </label>
+                <label> Foto da Piada <input type="file" name="foto_piada" size="20"> </label>
                 <br>
-                <label> Descricao do Post <input type="text" name="descricao_post" size="20"> </label>
+                <label> Descricao da Piada <input type="text" name="descricao_piada" size="20"> </label>
                 <input type="submit" value="Inserir" name="Inserir">
 			</fieldset>
 		</form>
         <br>
 		<h3> Excluir Post </h3>
-		<form method="POST" action="admin2.php">
+		<form method="POST" action="admin2c.php">
 			<fieldset>
-				<legend>Excluir Post</legend>
+				<legend>Excluir Piada</legend>
 				<input type="hidden" name="operacao" value="exclusao">
-				<label> Numero do Post <input type="text" name="numero_post" size="5"> </label>
+				<label> Numero da Piada <input type="text" name="numero_piada" size="5"> </label>
 				<input type="submit" value="Excluir" name="Excluir">
 			</fieldset>
 		</form>
         <br>
-        <h3> Atualizar Post </h3>
-		<form method="POST" action="admin2.php">
+        <h3> Atualizar Piada </h3>
+		<form method="POST" action="admin2c.php">
 			<fieldset>
-				<legend>Excluir Post</legend>
+				<legend>Atualizar Piada</legend>
 				<input type="hidden" name="operacao" value="atualizacao">
-				<label> Numero do Post <input type="text" name="numero_post" size="5"> </label><br>
-				<label> Novo Titulo do Post <input type="text" name="novo_titulo_post" size="20"> </label>
+				<label> Numero da Piada <input type="text" name="numero_piada" size="5"> </label><br>
+				<label> Novo Titulo da Piada <input type="text" name="novo_titulo_piada" size="20"> </label>
                 <br>
-                <label> Nova Foto do Post <input type="file" name="nova_foto_post" size="20"> </label>
+                <label> Nova Foto da piada <input type="file" name="nova_foto_piada" size="20"> </label>
                 <br>
-                <label> Nova Descricao do Post <input type="text" name="nova_descricao_post" size="20"> </label>
+                <label> Nova Piada <textarea rows="4" cols="50" name="nova_piada">
+</textarea></label>
+                
                 <input type="submit" value="Atualizar" name="Atualizar">
 			</fieldset>
 		</form>
