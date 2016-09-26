@@ -24,7 +24,7 @@
         </ul>
         </nav>
         </header>
-        <H1 style="text-align: center"><a href="admin.php" >Voltar</a></H1>
+        <H1 style="text-align: center"><a href="adminc.php" >Voltar</a></H1>
         <?php
 	$operacao = $_POST["operacao"];
 	if (strcmp($operacao, "inclusao") == 0 ) {
