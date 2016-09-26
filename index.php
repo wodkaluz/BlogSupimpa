@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <meta name="author" content="Lucas Luz e Fernando Raia">
+      <meta name="author" content="Lucas Luz, Fernando Raia e Felipe Pasqua">
       <meta name="description" content="Um Blog de Humor">
       <meta name="keywords" content="blog, humor">
       <link rel="stylesheet" type="text/css" href="estilo.css">
@@ -16,11 +16,20 @@
         <img id="imagem" src="imagens/title.png" alt="logo">
         <nav>
         <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="piadas.html">Piadas</a></li>
-          <li><a href="contato.html">Contato</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="piadas.php">Piadas</a></li>
+          <li><a href="contato.php">Contato</a></li>
         </ul>
         </nav>
         </header>
+    <section id="acesso">
+        <form id="facesso">
+            <label for="login">Login:</label><br>
+            <input type="text" name="login" id="login"><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" name="senha" id="senha"><br><br>
+            <input type="submit" name="submit">
+        </form>
+        </section>
     </body>
 </html>

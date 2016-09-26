@@ -41,3 +41,15 @@ nav{
 	background: #000;
 	color: #fff;
 }
+
+#acesso{
+    position: relative;
+    margin-right: 82.5%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#facesso{
+    padding: 5px;
+    border: 1px solid black;
+}
