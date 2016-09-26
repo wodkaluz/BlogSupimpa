@@ -17,6 +17,7 @@
         <nav>
         <ul class="menu">
           <li><a href="index.html">Home</a></li>
+          <li><a href="piadas.html">Piadas</a></li>
           <li><a href="contato.html">Contato</a></li>
         </ul>
         </nav>
