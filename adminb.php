@@ -65,5 +65,8 @@
                 <input type="submit" value="Atualizar" name="Atualizar">
 			</fieldset>
 		</form>
+                 <footer>
+        <hr>
+    Alunos: Lucas Luz, Fernando Raia e Felipe Pasqua </footer>
     </body>
 </html>

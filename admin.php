@@ -25,6 +25,7 @@
         </nav>
         </header>
         <H1 style="text-align: center"><a href="adminb.php" >PAGINA DE GIFS</a></H1>
+        <H1 style="text-align: center"><a href="adminc.php" >PAGINA DE PIADA</a></H1>
         <h3> Adicionar Post </h3>
 		<form method="POST" action="admin2.php">
 			<fieldset>
@@ -64,5 +65,9 @@
                 <input type="submit" value="Atualizar" name="Atualizar">
 			</fieldset>
 		</form>
+             <footer>
+        <hr>
+    Alunos: Lucas Luz, Fernando Raia e Felipe Pasqua </footer>
     </body>
+
 </html>

@@ -37,5 +37,9 @@
     <input type="submit" value="Enviar"/>
 </form>    
         </section>
+             <footer>
+        <hr>
+    Alunos: Lucas Luz, Fernando Raia e Felipe Pasqua </footer>
     </body>
+
 </html>

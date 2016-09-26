@@ -33,5 +33,9 @@
             <input type="submit" name="submit">
         </form>
         </section>
+         <footer>
+        <hr>
+    Alunos: Lucas Luz, Fernando Raia e Felipe Pasqua </footer>
     </body>
+   
 </html>

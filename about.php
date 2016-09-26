@@ -28,5 +28,8 @@
         <h1 class="texto">Somos um Blog de Humor!</h1><br>
             <p>Um blog feito por alunos universitários com o intuito de entreter você! Veja nossos posts e caia na gargalhada! Esqueça o estresse do dia a dia!</p>
         </article>
+                 <footer>
+        <hr>
+    Alunos: Lucas Luz, Fernando Raia e Felipe Pasqua </footer>
     </body>
 </html>

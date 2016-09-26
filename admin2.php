@@ -39,6 +39,9 @@
 		echo "Post Atualizado";
 	}
 ?>
-        
+             <footer>
+        <hr>
+    Alunos: Lucas Luz, Fernando Raia e Felipe Pasqua </footer>
     </body>
+
 </html>
