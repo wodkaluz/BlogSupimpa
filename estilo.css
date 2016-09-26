@@ -43,13 +43,20 @@ nav{
 }
 
 #acesso{
-    position: relative;
-    margin-right: 82.5%;
-    margin-left: 10%;
-    margin-top: 3%;
+    position: absolute;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 5px;
+    padding-left: 76.5%;
 }
 
 #facesso{
     padding: 5px;
     border: 1px solid black;
+}
+
+.form{
+	position: absolute;
+	padding-top: 5%;
+	padding-left: 45%;
 }

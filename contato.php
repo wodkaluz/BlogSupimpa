@@ -27,12 +27,8 @@
     <section>
         <label for="name">Seu Nome:</label><br />
         <input name="name" type="text" value="" size="30" /><br />
-    </section>
-    <section>
         <label for="email">Seu Email:</label><br />
         <input name="email" type="email" value="" size="30" /><br />
-    </section>
-    <section>
         <label for="message">Sua Mensagem:</label><br />
         <textarea name="message" rows="7" cols="30"></textarea><br />
     </section>
