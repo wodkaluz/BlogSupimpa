@@ -1,15 +1,15 @@
 <?php
     $name = $_POST["name"];
     $email = $_POST["email"];
-    $message = $_POST["message"];
+    $pass = $_POST["pass"];
     $erro = 0;
     
     if (empty($name) OR strstr($name, ' ')==FALSE) {
 $mensagem = "Favor digitar seu nome corretamente.<br>";
 $erro=1;
 }
-    if (empty($message) OR strstr($message, ' ')==FALSE) {
-$mensagem = "Favor digitar sua mensagem corretamente.<br>";
+    if (empty($pass) == FALSE) {
+$mensagem = "Favor digitar uma senha.<br>";
 $erro=1;
 }
     if (strlen($email) < 8 || strstr($email, '@') == FALSE) {
@@ -17,7 +17,7 @@ $erro=1;
             $erro=1;
 }
     if ($erro==0) {
-        $mensagem = "Mensagem enviada com sucesso.";
+        $mensagem = "Cadastro Realizado com sucesso.";
     }
 ?>
 
@@ -34,34 +34,20 @@ $erro=1;
         <header>
         <img id="imagem" src="imagens/title.png" alt="logo">
         <?php include "menu.inc"; ?>
-        </header>
-       
-        <section>
-<form name="form" class="form" action="contato2.php" method="POST">
+        </header><form name="form" class="form" action="cadastrar2.php" method="POST">
     <section>
-        <?php
-            echo $mensagem."<br>";
-        ?>
         <label for="name">Seu Nome:</label><br />
         <input name="name" type="text" value="" size="30" /><br />
-    </section>
-    <section>
         <label for="email">Seu Email:</label><br />
         <input name="email" type="email" value="" size="30" /><br />
+        <label for="pass">Sua senha:</label><br />
+        <input name="pass" type="password" id="pass" size="30"><br />
     </section>
-    <section>
-        <label for="message">Sua Mensagem:</label><br />
-        <textarea name="message" rows="7" cols="30"></textarea><br />
-    </section>
-    <input type="submit" value="Enviar"/>              
+    <input type="submit" value="Enviar"/>
 </form>    
         </section>
-         <section>
-            <img src="imagens/arrow-up.png" class="mark" style="margin-left: 1195px;">
-        </section>
-         <footer style="bottom:0;">
+             <footer style="bottom:0;">
         <hr>
     Alunos: Lucas Luz, Fernando Raia e Felipe Pasqua </footer>
     </body>
-    
 </html>

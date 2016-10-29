@@ -16,22 +16,19 @@
         <img id="imagem" src="imagens/title.png" alt="logo">
         <?php include "menu.inc"; ?>
         </header>
-        <H1 style="text-align: center"><a href="adminc.php" >Voltar</a></H1>
-        <?php
-	$operacao = $_POST["operacao"];
-	if (strcmp($operacao, "inclusao") == 0 ) {
-		echo "Postado com sucesso";
-	}
-	
-	if (strcmp($operacao, "exclusao") == 0 ) {
-		echo "Post Excluído";
-	}
-        
-    if (strcmp($operacao, "atualizacao") == 0 ) {
-		echo "Post Atualizado";
-	}
-?>
-                 <footer>
+        <section>
+        <form name="form" class="form" action="cadastrar2.php" method="POST">
+        <label for="name">Seu Nome:</label><br />
+        <input name="name" type="text" value="" size="30" /><br />
+        <label for="email">Seu Email:</label><br />
+        <input name="email" type="email" value="" size="30" /><br />
+        <label for="pass">Sua senha:</label><br />
+        <input name="pass" type="password" id="pass" size="30"><br />
+    
+    <input type="submit" value="Enviar"/>
+</form>    
+        </section>
+             <footer style="bottom:0;">
         <hr>
     Alunos: Lucas Luz, Fernando Raia e Felipe Pasqua </footer>
     </body>

@@ -14,16 +14,9 @@
     <body>
         <header>
         <img id="imagem" src="imagens/title.png" alt="logo">
-        <nav>
-        <ul class="menu">
-          <li><a href="index.php">Home</a></li>
-          <li><a href="piadas.php">Piadas</a></li>
-           <li><a href="gifs.php">Gifs</a></li>
-        <li><a href="about.php">Quem Somos</a></li>
-          <li><a href="contato.php">Contato</a></li>
-        </ul>
-        </nav>
+       <?php include "menu.inc"; ?>
         </header>
+        
     <section id="acesso">
         <form id="facesso" action="admin.php">
             <label for="login">Login:</label><br>
@@ -31,7 +24,24 @@
             <label for="senha">Senha:</label><br>
             <input type="password" name="senha" id="senha"><br><br>
             <input type="submit" name="submit">
+            <a href="cadastrar.php">Cadastrar</a>
+            
         </form>
+        </section>
+        <section>
+            <img src="imagens/arrow-up.png" class="mark" style="margin-left: 142px;">
+        </section>
+        <section>
+            <img class="post" src="imagens/posts/post1.jpg">
+            <br>
+            <a href="#"><img src="imagens/avatar.png" class="avatar"></a>
+            <text>Muito bacana! Gostei mesmo!</text>
+            <form class="comment">
+            <label for="comentario">Comentario:</label><br>
+            <textarea cols="50" rows="3" name="comentario" id="comentario"></textarea>
+            <input type="submit" name="submit">
+            
+        </form>    
         </section>
          <footer>
         <hr>
